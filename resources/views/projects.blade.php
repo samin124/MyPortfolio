@@ -1,14 +1,15 @@
 @extends('layouts.app')
 
 @section('content')
-    <!-- Projects Section with a Unique Glassmorphism Design -->
+  
+
     <div class="min-h-screen w-full flex flex-col items-center justify-center bg-gray-900 text-white px-6 md:px-12">
         <h1 class="text-3xl font-bold neon-text mb-10 mt-5">My Projects</h1>
 
-        <!-- Stacked Project Cards (Unique Layout) -->
+       
         <div class="flex flex-col w-full max-w-4xl space-y-8">
 
-            <!-- Example Project Card -->
+  
             <div class="project-card" data-aos="fade-up">
                 <img src="{{ asset('images/1704297505259.jpg') }}" alt="Project" class="rounded-lg w-full">
                 <div class="p-5">
@@ -109,7 +110,6 @@
         </div>
     </div>
 
-    <!-- CSS Styles (Glassmorphism & Unique Effects) -->
     <style>
         .neon-text {
             text-shadow: 0 0 5px #fff, 0 0 10px #3b82f6, 0 0 15px #1e3a8a;

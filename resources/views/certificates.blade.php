@@ -1,14 +1,10 @@
 @extends('layouts.app')
 
 @section('content')
-    <!-- Fullscreen Section with Neon Gradient -->
     <div class="min-h-screen w-full flex flex-col items-center justify-center bg-gradient-to-r from-[#0f172a] via-[#1e3a8a] to-[#9333ea] text-white px-6 md:px-12">
         <h1 class="text-xl font-bold neon-text mb-6 mt-3">Certificates & Achievements</h1>
 
-        <!-- Certificate Cards -->
         <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6 w-full max-w-6xl">
-
-            <!-- Example Certificate Card -->
             <div class="certificate-card" data-aos="fade-up">
                 <img src="{{ asset('images\1740991593215.jpg') }}" alt="Certificate" class="rounded-lg">
                 <h2 class="text-xl font-bold mt-3">🏆CERTIFICATE OF ACHIEVEMENT </h2>
@@ -92,7 +88,8 @@
         </div>
     </div>
 
-    <!-- CSS Styles -->
+
+    
     <style>
         .neon-text {
             text-shadow: 0 0 5px #fff, 0 0 10px #9333ea, 0 0 15px #1e3a8a;
